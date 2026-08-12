@@ -43,7 +43,7 @@ uv add torchmeter
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/torchmeter.git
+git clone https://github.com/Pujan-Dev/torchmeter.git
 cd torchmeter
 ```
 
