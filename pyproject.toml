@@ -1,19 +1,20 @@
 [project]
 name = "torchmeter"
 version = "0.1.0"
-description = "Add your description here"
+description = "Simple, reproducible performance benchmarking for PyTorch models."
 readme = "README.md"
+license = { text = "Apache-2.0" }
 authors = [
-    { name = "pujan neupane", email = "pujanneupaneop0907@gmail.com" }
+    { name = "Pujan Neupane", email = "pujanneupaneop0907@gmail.com" }
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "torch>=2.13.0",
-    "torchvision>=0.28.0",
+    "torch>=2.0",
+    "torchvision>=0.15",
 ]
 
 [project.scripts]
-torchmeter = "torchmeter:main"
+torchmeter = "torchmeter.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13.0"]
